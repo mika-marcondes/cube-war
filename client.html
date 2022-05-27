@@ -66,6 +66,7 @@
 
         const game = createGame()
         const keyboardListener = createKeyboardListener()
+        keyboardListener.subscribe(game.movePlayer)
 
         function createKeyboardListener() {
             const state = {

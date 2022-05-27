@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653580460455</updated>
       <workItem from="1653580462713" duration="8614000" />
-      <workItem from="1653674966327" duration="7211000" />
+      <workItem from="1653674966327" duration="7549000" />
     </task>
     <task id="LOCAL-00001" summary="First commit!">
       <created>1653587473138</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653594350260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Notify observers">
+      <created>1653682492503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653682492503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +101,7 @@
     <MESSAGE value="First commit!" />
     <MESSAGE value="Render player and fruit" />
     <MESSAGE value="Added player movement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added player movement" />
+    <MESSAGE value="Notify observers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Notify observers" />
   </component>
 </project>
