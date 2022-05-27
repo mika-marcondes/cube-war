@@ -15,21 +15,16 @@
 </head>
 <body>
     <canvas id="screen" width="10px" height="10px"></canvas>
-
     <script>
-        // Create screen
         const screen = document.getElementById('screen')
         const context = screen.getContext('2d')
+        const currentPlayerId = 'player1'
 
-        const game = createGame()
-
-        // Game
         function createGame() {
             const state = {
-                // Add players & fruits
                 players: {
                     'player1': { x: 1, y: 1 },
-                    'player2': { x: 9, y: 9 }
+                    'player2': { x: 9, y: 9 },
                 },
                 fruits: {
                     'fruit1': { x: 3, y: 1 }
@@ -42,7 +37,6 @@
                 const keyPressed = command.keyPressed
                 const player = state.players[command.playerId]
 
-                // Player movement
                 if (keyPressed === 'ArrowUp' && player.y - 1 >= 0) {
                     player.y = player.y - 1
                     return
@@ -53,13 +47,14 @@
                     return
                 }
 
-                if (keyPressed === 'ArrowLeft' && player.x - 1 >= 0) {
-                    player.x = player.x - 1
+                if (keyPressed === 'ArrowDown' && player.y + 1 < screen.height) {
+                    player.y = player.y + 1
                     return
                 }
 
-                if (keyPressed === 'ArrowDown' && player.y + 1 < screen.height) {
-                    player.y = player.y + 1
+                if (keyPressed === 'ArrowLeft' && player.x - 1 >= 0) {
+                    player.x = player.x - 1
+                    return
                 }
             }
 
@@ -69,24 +64,47 @@
             }
         }
 
-        // See what key the player is pressing
-        document.addEventListener('keydown', handleKeydown)
+        const game = createGame()
+        const keyboardListener = createKeyboardListener()
 
-        function handleKeydown(event) {
-            const keyPressed = event.key
-
-            const command = {
-                playerId: 'player1',
-                keyPressed
+        function createKeyboardListener() {
+            const state = {
+                observers: []
             }
 
-            game.movePlayer(command)
-        }
+            function subscribe(observerFunction) {
+                state.observers.push(observerFunction)
+            }
 
+            function notifyAll(command) {
+                console.log(`Notifying ${state.observers.length} observers`)
+
+                for (const observerFunction of state.observers) {
+                    observerFunction(command)
+                }
+            }
+
+            document.addEventListener('keydown', handleKeydown)
+
+            function handleKeydown(event) {
+                const keyPressed = event.key
+
+                const command = {
+                    playerId: 'player1',
+                    keyPressed
+                }
+
+                notifyAll(command)
+            }
+
+            return {
+                subscribe
+            }
+        }
+        
         renderScreen()
 
         function renderScreen() {
-            // Clear screen
             context.fillStyle = 'white'
             context.clearRect(0, 0, 10, 10)
 
@@ -102,7 +120,6 @@
                 context.fillRect(fruit.x, fruit.y, 1, 1)
             }
 
-            // Draw pixel on canvas
             requestAnimationFrame(renderScreen)
         }
 
