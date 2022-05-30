@@ -28,8 +28,12 @@
     const screen = document.getElementById('screen')
     renderScreen(screen, game, requestAnimationFrame)
 
-    game.addPlayer({playerId: 'player1', playerX: 0, playerY: 0})
-    game.addFruit({fruitId: 'fruit1', fruitX: 3, fruitY: 3})
+    const socket = io()
+
+    socket.on('connect', () => {
+        const playerId = socket.id
+        console.log(`Player connected on Client with id: ${playerId}`)
+    })
 </script>
 </body>
 </html>
