@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30cb85bc-dc84-4430-b368-5db1a8a9b611" name="Changes" comment="Better code, better logs :)">
+    <list default="true" id="30cb85bc-dc84-4430-b368-5db1a8a9b611" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboard-listener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/render-screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/client.html" afterDir="false" />
     </list>
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,7 +52,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,7 +66,7 @@
       <updated>1653580460455</updated>
       <workItem from="1653580462713" duration="8614000" />
       <workItem from="1653674966327" duration="8551000" />
-      <workItem from="1653925463007" duration="6625000" />
+      <workItem from="1653925463007" duration="8740000" />
     </task>
     <task id="LOCAL-00001" summary="First commit!">
       <created>1653587473138</created>
@@ -106,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653927795460</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Check collision">
+      <created>1653936936046</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653936936046</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +130,7 @@
     <MESSAGE value="Notify observers" />
     <MESSAGE value="Subscribe observers" />
     <MESSAGE value="Better code, better logs :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better code, better logs :)" />
+    <MESSAGE value="Check collision" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check collision" />
   </component>
 </project>
