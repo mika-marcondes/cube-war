@@ -1,0 +1,23 @@
+{
+  "name": "cube-war",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mika-marcondes/cube-war.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mika-marcondes/cube-war/issues"
+  },
+  "homepage": "https://github.com/mika-marcondes/cube-war#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
