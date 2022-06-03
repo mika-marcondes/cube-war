@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30cb85bc-dc84-4430-b368-5db1a8a9b611" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cube-war.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/keyboard-listener.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/keyboard-listener.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/render-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/render-screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +89,7 @@
       <workItem from="1653580462713" duration="8614000" />
       <workItem from="1653674966327" duration="8551000" />
       <workItem from="1653925463007" duration="15062000" />
-      <workItem from="1654094029064" duration="11455000" />
+      <workItem from="1654094029064" duration="13140000" />
     </task>
     <task id="LOCAL-00001" summary="First commit!">
       <created>1653587473138</created>
@@ -172,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653944208434</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sync player movement">
+      <created>1654280525654</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654280525654</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +186,8 @@
     <MESSAGE value="Create modules :)" />
     <MESSAGE value="Create server" />
     <MESSAGE value="wip: sockets" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip: sockets" />
+    <MESSAGE value="Sync player movement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sync player movement" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
