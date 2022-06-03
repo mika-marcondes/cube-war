@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30cb85bc-dc84-4430-b368-5db1a8a9b611" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/cube-war.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/keyboard-listener.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/keyboard-listener.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/render-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/render-screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,19 +55,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "16.15.0",
     "javascript.nodejs.core.library.typings.version": "16.11.36",
-    "last_opened_file_path": "C:/Users/mikam/Documents/Projects/cube-war",
+    "last_opened_file_path": "C:/Users/mikam/Documents/Projects/cube-war/server.js",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editing.templates",
+    "ts.external.directory.path": "C:\\Users\\mikam\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5080.193\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -66,6 +79,15 @@
       <recent name="C:\Users\mikam\Documents\Projects\cube-war" />
       <recent name="C:\Users\mikam\Documents\Projects\cube-war\release" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start:dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,7 +99,8 @@
       <updated>1653580460455</updated>
       <workItem from="1653580462713" duration="8614000" />
       <workItem from="1653674966327" duration="8551000" />
-      <workItem from="1653925463007" duration="13813000" />
+      <workItem from="1653925463007" duration="15062000" />
+      <workItem from="1654094029064" duration="11455000" />
     </task>
     <task id="LOCAL-00001" summary="First commit!">
       <created>1653587473138</created>
@@ -142,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653941410428</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="wip: sockets">
+      <created>1653944208434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653944208434</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +189,11 @@
     <MESSAGE value="Check collision" />
     <MESSAGE value="Create modules :)" />
     <MESSAGE value="Create server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create server" />
+    <MESSAGE value="wip: sockets" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip: sockets" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
